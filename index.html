@@ -12,6 +12,28 @@
     *{margin: 0; padding: 0;}
     h1{font-size: 16px; padding-top: 10px;}
     h1 img{width: 120px;}
+
+    section{width: 90%; margin: 0 auto;}
+
+    .row{
+      /* border: 1px solid #333; */
+      margin-bottom: 20px;
+    }
+    .row dt{
+      /* border-bottom: 1px solid #333;  */
+      padding: 30px 0px;
+      background: #c384ff;
+      color: #fff;
+      font-size: 20px;
+    }
+    .row dd{
+      padding: 30px 0px;
+      border: 1px solid #333; margin-bottom: 0px;
+    }
+    a{
+      text-decoration: none;
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -26,22 +48,39 @@
   <main>
     <section>
       <dl class="text-center">
-        <dt>부트스트랩 1일차</dt>
-        <dd><a href="./0607/부트 스트랩 소개와 장단점.html" title="">부트스트랩 소개와 장단점</a></dd>
-        <dd><a href="./0607/부트스트랩 그리드 레이아웃.html" title="">부트스트랩 그리드 레이아웃</a></dd>
-        <dd><a href="./0607/실습하기.html" title="">실습하기</a></dd>
-        <dd><a href="./0607/실습하기2.html" title="">실습하기2</a></dd>
-        <dt>부트스트랩 2일차</dt>
-        <dd><a href="./0610/문단 텍스트.html" title="">부트스트랩 문단 텍스트</a></dd>
-        <dd><a href="./0610/버튼.html" title="">부트스트랩 버튼</a></dd>
-        <dd><a href="./0610/이미지.html" title="">부트스트랩 이미지</a></dd>
-        <dd><a href="./0610/테이블.html" title="">부트스트랩 테이블</a></dd>
-        <dd><a href="./0610/페이지네이션.html" title="">부트스트랩 페이지네이션</a></dd>
-        <dd><a href="../board-bootstrap/write.php" title="">부트스트랩 실습_게시판</a></dd>
-        <dt>부트스트랩 3일차</dt>
-        <dd></dd>
-        <dt>부트스트랩 4일차</dt>
-        <dd></dd>
+        <div class="row">
+          <dt>부트스트랩 1일차</dt>
+          <dd class="col-md-3"> <a href="./0607/부트 스트랩 소개와 장단점.html" title="소개와 장단점">부트스트랩 <br> 소개와 장단점</a></dd>
+          <dd class="col-md-3"><a href="./0607/부트스트랩 그리드 레이아웃.html" title="그리드 레이아웃">부트스트랩 <br> 그리드 레이아웃</a></dd>
+          <dd class="col-md-3"><a href="./0607/실습하기.html" title="실습하기">실습하기</a></dd>
+          <dd class="col-md-3"><a href="./0607/실습하기2.html" title="실습하기2">실습하기2</a></dd>
+        </div>
+
+        <div class="row">
+          <dt>부트스트랩 2일차</dt>
+          <dd class="col-md-4"><a href="./0610/문단 텍스트.html" title="문단 텍스트">부트스트랩 문단 텍스트</a></dd>
+          <dd class="col-md-4"><a href="./0610/버튼.html" title="버튼">부트스트랩 버튼</a></dd>
+          <dd class="col-md-4"><a href="./0610/이미지.html" title="이미지">부트스트랩 이미지</a></dd>
+          <dd class="col-md-4"><a href="./0610/테이블.html" title="테이블">부트스트랩 테이블</a></dd>
+          <dd class="col-md-4"><a href="./0610/페이지네이션.html" title="페이지네이션">부트스트랩 페이지네이션</a></dd>
+          <dd class="col-md-4"><a href="../board-bootstrap/write.php" title="실습_게시판">부트스트랩 실습_게시판</a></dd>
+        </div>
+
+        <div class="row">
+          <dt>부트스트랩 3일차</dt>
+          <dd class="col-md-3"><a href="./0611/경고메세지와 닫기.html" title="경고메세지와 닫기">경고메세지와 닫기</a></dd>
+          <dd class="col-md-3"><a href="./0611/로그인창 모달.html" title="로그인창 모달">로그인창 모달</a></dd>
+          <dd class="col-md-3"><a href="./0611/폼태그.html" title="폼태그">폼태그</a></dd>
+          <dd class="col-md-3"><a href="./0611/회원가입 실습.html" title="회원가입 실습">회원가입 실습</a></dd>
+        </div>
+        <div class="row">
+          <dt>부트스트랩 4일차</dt>
+          <dd class="col-md-3"><a href="./0612/부트스트랩 아이콘.html" title="부트스트랩 아이콘">부트스트랩 아이콘</a></dd>
+          <dd class="col-md-3"><a href="./0612/진행바.html" title="진행바">진행바</a></dd>
+          <dd class="col-md-3"><a href="./0612/휘장과 라벨.html" title="휘장과 라벨">휘장과 라벨</a></dd>
+          <dd class="col-md-3"><a href="./0612/카드디자인.html" title="카드디자인">카드디자인</a></dd>
+          <dd class="col-md-3"><a href="./0612/실습_내물건팔지.html" title="내물건팔지 _실습">내물건팔기 _실습</a></dd>
+        </div>
       </dl>
     </section>
   </main>
